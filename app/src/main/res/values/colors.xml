@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Light Color-->
+    <color name="colorAccent">#E62E2F</color>
+    <color name="background">#FDFDFE</color>
+
+    <!--Night Color-->
+    <color name="colorAccentNight">#E62E2F</color>
+    <color name="background_Night">#141D24</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="transperent">#00FFFFFF</color>
+
+    <color name="color_1">#2062af</color>
+    <color name="color_2">#58AEB7</color>
+    <color name="color_3">#F4B528</color>
+    <color name="color_4">#FF0070</color>
+    <color name="color_5">#BF89AE</color>
+    <color name="color_6">#8c47fb</color>
+    <color name="color_7">#59BC10</color>
+
+
+
+    <color name="black">#000000</color>
+
+</resources>

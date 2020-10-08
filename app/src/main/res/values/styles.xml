@@ -1,0 +1,105 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorPrimaryDark">@color/background</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
+
+
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="icon_a">@drawable/ic_keyboard_backspace_black_24dp2</item>
+        <item name="Boder">#1A0C1318</item>
+        <item name="Titel_1">#161616</item>
+        <item name="Titel_2">#6D6D6D</item>
+        <item name="BackgroundUpdate1">#F0F0F0</item>
+        <item name="BackgroundUpdate2">#E8E8E8</item>
+
+
+        <item name="BackgroundColor">@color/background</item>
+        <item name="BackgroundTint">@color/background_Night</item>
+
+
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background_Night</item>
+        <item name="colorPrimaryDark">@color/background_Night</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/background_Night</item>
+
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="icon_a">@drawable/ic_keyboard_backspace_black_24dp</item>
+        <item name="Boder">#0DFDFDFD</item>
+        <item name="Titel_1">#DBDBDB</item>
+        <item name="Titel_2">#E9A0A0A0</item>
+
+        <item name="BackgroundUpdate1">#232323</item>
+        <item name="BackgroundUpdate2">#1B1B1B</item>
+
+        <item name="BackgroundColor">@color/background_Night</item>
+        <item name="BackgroundTint">@color/background</item>
+
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="ThemeDialog" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle_Light</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle_Light</item>
+    </style>
+
+    <style name="ThemeDialog2" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="NegativeButtonStyle_Light" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="PositiveButtonStyle_Light" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <style name="WhiteAccent" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/cardmy</item>
+    </style>
+
+    <style name="YOURSTYLE" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:itemBackground">@android:color/holo_red_light</item>
+    </style>
+
+</resources>
